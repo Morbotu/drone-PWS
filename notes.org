@@ -11,15 +11,15 @@ SCHEDULED: <2021-05-23 Sun>
 - [X] Installer het OS
 - [ ] Installeer camera
 
-**** Linkjes
-- [[https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit#write][Getting Started]]
+**** Links
+- [[https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit#write][Getting Started with Jetson Nano 2GB Developer Kit]]
 
 *** TODO Verbind Nvidia Jetson Nano met pixhawk 4 [0%]
 - [ ] Vind links op internet met voorbeelden
 - [ ] Test verbinding uit en kijk of de drone bestuurd kan worden
 
-**** Linkjes
-- [[https://forums.developer.nvidia.com/t/how-to-connect-jetson-nano-to-pixhawk/80189/3][Forum]]
+**** Links
+- [[https://forums.developer.nvidia.com/t/how-to-connect-jetson-nano-to-pixhawk/80189/3][How to Connect Jetson Nano to Pixhawk]]
 
 *** TODO Vind API voor camera [0%]
 - [ ] Vind voorbeeld programma
@@ -28,6 +28,10 @@ SCHEDULED: <2021-05-23 Sun>
   + [ ] Stuur informatie door naar drone
   + [ ] Herken object om te vervoeren
   + [ ] Bereken beste route
+
+**** Links
+- [[https://blog.tensorflow.org/2021/01/leveraging-tensorflow-tensorrt-integration.html][Leveraging TensorFlow-TensorRT integration for Low latency Inference]]
+- [[https://maker.pro/nvidia-jetson/tutorial/deep-learning-with-jetson-nano-real-time-object-detection-and-recognition][Create a real-time multiple object detection and recognition application in Python using with a Raspberry Pi Camera]]
 
 ** TODO Pixhawk 4 drone build [0%]
 

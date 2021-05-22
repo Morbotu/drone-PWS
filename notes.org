@@ -4,6 +4,14 @@
 
 ** TODO Nvidia Jetson Nano computer vision [0%]
 
+*** TODO Stel de Nvidia Jetson Nano in [0%]
+- [ ] Vind en download het OS
+- [ ] Installer het OS
+- [ ] Installeer camera
+
+**** Linkjes
+- [[https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit#write][Getting Started]]
+
 *** TODO Verbind Nvidia Jetson Nano met pixhawk 4 [0%]
 - [ ] Vind links op internet met voorbeelden
 - [ ] Test verbinding uit en kijk of de drone bestuurd kan worden
@@ -11,6 +19,23 @@
 **** Linkjes
 - [[https://forums.developer.nvidia.com/t/how-to-connect-jetson-nano-to-pixhawk/80189/3][Forum]]
 
-*** TODO Vind API voor camera [100%]
+*** TODO Vind API voor camera [0%]
+- [ ] Vind voorbeeld programma
+- [ ] Schrijf eigen versie programma [0/4]
+  + [ ] Herken obstakels
+  + [ ] Stuur informatie door naar drone
+  + [ ] Herken object om te vervoeren
+  + [ ] Bereken beste route
 
-** TODO Pixhawk 4 drone build [100%]
+** TODO Pixhawk 4 drone build [0%]
+
+*** TODO Zet drone in elkaar [0%]
+- [ ] Volg handleiding voor het in elkaar zetten van de drone
+- [ ] Kijk of er ruimte is voor de Nvidia Jetson Nano
+- [ ] Maak constructie voor grijparm
+
+
+*** TODO Bestuur drone [0%]
+- [ ] Vind programma's om de drone met de computer te besturen
+- [ ] Test alle onderdelen uit
+- [ ] Calibreer de drone

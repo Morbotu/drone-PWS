@@ -1,12 +1,14 @@
 #+TITLE: Notes drone pws
 
 * PROJ Drone [0%]
+DEADLINE: <2021-10-06 Wed>
 
 ** TODO Nvidia Jetson Nano computer vision [0%]
 
-*** TODO Stel de Nvidia Jetson Nano in [0%]
-- [ ] Vind en download het OS
-- [ ] Installer het OS
+*** TODO Stel de Nvidia Jetson Nano in [66%]
+SCHEDULED: <2021-05-23 Sun>
+- [X] Vind en download het OS
+- [X] Installer het OS
 - [ ] Installeer camera
 
 **** Linkjes

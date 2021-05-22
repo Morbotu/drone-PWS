@@ -1,0 +1,16 @@
+#+TITLE: Notes drone pws
+
+* PROJ Drone [0%]
+
+** TODO Nvidia Jetson Nano computer vision [0%]
+
+*** TODO Verbind Nvidia Jetson Nano met pixhawk 4 [0%]
+- [ ] Vind links op internet met voorbeelden
+- [ ] Test verbinding uit en kijk of de drone bestuurd kan worden
+
+**** Linkjes
+- [[https://forums.developer.nvidia.com/t/how-to-connect-jetson-nano-to-pixhawk/80189/3][Forum]]
+
+*** TODO Vind API voor camera [100%]
+
+** TODO Pixhawk 4 drone build [100%]

@@ -3,19 +3,21 @@
 * PROJ [#A] Drone [0%] :drone:
 DEADLINE: <2021-10-06 Wed>
 
-** TODO Nvidia Jetson Nano computer vision [0%] :drone:nvidia:
+** TODO Nvidia Jetson Nano computer vision [33%] :drone:nvidia:
 
-*** TODO Stel de Nvidia Jetson Nano in [0%]
+*** DONE Stel de Nvidia Jetson Nano in [100%]
 SCHEDULED: <2021-05-23 Sun>
 - [X] Vind en download het OS
 - [X] Installer het OS
-- [ ] Installeer camera
+- [X] Installeer camera
 
 **** Links
 - [[https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit#write][Getting Started with Jetson Nano 2GB Developer Kit]]
+- [[https://stackoverflow.com/questions/64685185/is-there-a-way-to-generate-real-time-depthmap-from-single-camera-video-in-python][Is there a way to generate real time depthmap from single camera video in python/opencv?]]
 
 **** Github
-  - [[https://github.com/Morbotu/monodepth2][Morbotu/monodepth2]]
+- [[https://github.com/Morbotu/monodepth2][Morbotu/monodepth2]]
+- [[https://github.com/tum-vision/lsd_slam][tum-vision/lsd_slam]]
 
 *** TODO Verbind Nvidia Jetson Nano met pixhawk 4 [0%]
 - [ ] Vind links op internet met voorbeelden
@@ -24,7 +26,8 @@ SCHEDULED: <2021-05-23 Sun>
 **** Links
 - [[https://forums.developer.nvidia.com/t/how-to-connect-jetson-nano-to-pixhawk/80189/3][How to Connect Jetson Nano to Pixhawk]]
 
-*** TODO Vind API voor camera [0%]
+*** TODO Schrijf programma voor camera [0%]
+- [ ] Vind API voor image recognition
 - [ ] Vind voorbeeld programma
 - [ ] Schrijf eigen versie programma [0/4]
   + [ ] Herken obstakels

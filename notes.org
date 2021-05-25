@@ -19,14 +19,7 @@ SCHEDULED: <2021-05-23 Sun>
 - [[https://github.com/Morbotu/monodepth2][Morbotu/monodepth2]]
 - [[https://github.com/tum-vision/lsd_slam][tum-vision/lsd_slam]]
 
-*** TODO Verbind Nvidia Jetson Nano met pixhawk 4 [0%]
-- [ ] Vind links op internet met voorbeelden
-- [ ] Test verbinding uit en kijk of de drone bestuurd kan worden
-
-**** Links
-- [[https://forums.developer.nvidia.com/t/how-to-connect-jetson-nano-to-pixhawk/80189/3][How to Connect Jetson Nano to Pixhawk]]
-
-*** TODO Schrijf programma voor camera [0%]
+*** TODO [#A] Schrijf programma voor camera [0%]
 - [ ] Vind API voor image recognition
 - [ ] Vind voorbeeld programma
 - [ ] Schrijf eigen versie programma [0/4]
@@ -38,6 +31,13 @@ SCHEDULED: <2021-05-23 Sun>
 **** Links
 - [[https://blog.tensorflow.org/2021/01/leveraging-tensorflow-tensorrt-integration.html][Leveraging TensorFlow-TensorRT integration for Low latency Inference]]
 - [[https://maker.pro/nvidia-jetson/tutorial/deep-learning-with-jetson-nano-real-time-object-detection-and-recognition][Create a real-time multiple object detection and recognition application in Python using with a Raspberry Pi Camera]]
+
+*** TODO Verbind Nvidia Jetson Nano met pixhawk 4 [0%]
+- [ ] Vind links op internet met voorbeelden
+- [ ] Test verbinding uit en kijk of de drone bestuurd kan worden
+
+**** Links
+- [[https://forums.developer.nvidia.com/t/how-to-connect-jetson-nano-to-pixhawk/80189/3][How to Connect Jetson Nano to Pixhawk]]
 
 ** TODO Pixhawk 4 drone build [0%] :pixhawk:
 

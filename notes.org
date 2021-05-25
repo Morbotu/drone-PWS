@@ -1,11 +1,11 @@
 #+TITLE: Notes drone pws
 
-* PROJ Drone [0%]
+* PROJ [#A] Drone [0%] :drone:
 DEADLINE: <2021-10-06 Wed>
 
-** TODO Nvidia Jetson Nano computer vision [0%]
+** TODO Nvidia Jetson Nano computer vision [0%] :drone:nvidia:
 
-*** TODO Stel de Nvidia Jetson Nano in [66%]
+*** TODO Stel de Nvidia Jetson Nano in [0%]
 SCHEDULED: <2021-05-23 Sun>
 - [X] Vind en download het OS
 - [X] Installer het OS
@@ -13,6 +13,9 @@ SCHEDULED: <2021-05-23 Sun>
 
 **** Links
 - [[https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit#write][Getting Started with Jetson Nano 2GB Developer Kit]]
+
+**** Github
+  - [[https://github.com/Morbotu/monodepth2][Morbotu/monodepth2]]
 
 *** TODO Verbind Nvidia Jetson Nano met pixhawk 4 [0%]
 - [ ] Vind links op internet met voorbeelden
@@ -33,7 +36,7 @@ SCHEDULED: <2021-05-23 Sun>
 - [[https://blog.tensorflow.org/2021/01/leveraging-tensorflow-tensorrt-integration.html][Leveraging TensorFlow-TensorRT integration for Low latency Inference]]
 - [[https://maker.pro/nvidia-jetson/tutorial/deep-learning-with-jetson-nano-real-time-object-detection-and-recognition][Create a real-time multiple object detection and recognition application in Python using with a Raspberry Pi Camera]]
 
-** TODO Pixhawk 4 drone build [0%]
+** TODO Pixhawk 4 drone build [0%] :pixhawk:
 
 *** TODO Zet drone in elkaar [0%]
 - [ ] Volg handleiding voor het in elkaar zetten van de drone

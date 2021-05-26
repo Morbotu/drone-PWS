@@ -6,6 +6,7 @@ Dit programma zet de mac camera aan om te filmen en laat het op het scherm zien.
 Door Rombout Jansen
 """
 
+
 # Modules
 import os
 import numpy as np
@@ -21,11 +22,11 @@ import networks
 from utils import download_model_if_doesnt_exist
 
 
-def main() -> None:
+def main():
     display_depth()
 
 
-def get_device() -> torch.device:
+def get_device():
     if torch.cuda.is_available():
         device = torch.device("cuda")
     else:

@@ -3,9 +3,9 @@
 * PROJ [#A] Drone [0%] :drone:
 DEADLINE: <2021-10-06 Wed>
 
-** TODO Nvidia Jetson Nano computer vision [33%] :drone:nvidia:
+** TODO Nvidia Jetson Nano computer vision [20%] :drone:nvidia:
 
-*** DONE Stel de Nvidia Jetson Nano in [100%]
+*** DONE Stel de Nvidia Jetson Nano in [0%]
 SCHEDULED: <2021-05-23 Sun>
 - [X] Vind en download het OS
 - [X] Installer het OS
@@ -18,6 +18,9 @@ SCHEDULED: <2021-05-23 Sun>
 **** Github
 - [[https://github.com/Morbotu/monodepth2][Morbotu/monodepth2]]
 - [[https://github.com/tum-vision/lsd_slam][tum-vision/lsd_slam]]
+
+*** PROJ [#A] Depth perception [0%]
+**** TODO Maak [[file:live_camera_mac.py::!/usr/bin/env python3][live_camera_mac.py]] schoon
 
 *** TODO [#A] Schrijf programma voor camera [0%]
 - [ ] Vind API voor image recognition

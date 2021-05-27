@@ -19,8 +19,8 @@ from torchvision import transforms
 import cv2
 
 # Geinstalleerde bestanden
-import networks
-from utils import download_model_if_doesnt_exist
+from src.live_camera_mac.utils import download_model_if_doesnt_exist
+from src.live_camera_mac import networks
 
 
 def main():

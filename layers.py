@@ -152,7 +152,8 @@ class BackprojectDepth(nn.Module):
 
         meshgrid = np.meshgrid(
             range(self.width), range(self.height), indexing='xy')
-        self.id_coords = np.stack(meshgrid, axis=0).astype(np.float32)
+        self.id_coords = np.stack(meshgrid, axis=0).astype(  # type: ignore
+            np.float32)
         self.id_coords = nn.Parameter(torch.from_numpy(self.id_coords),
                                       requires_grad=False)
 
@@ -264,9 +265,9 @@ def compute_depth_errors(gt, pred):
     """Computation of error metrics between predicted and ground truth depths
     """
     thresh = torch.max((gt / pred), (pred / gt))
-    a1 = (thresh < 1.25).float().mean()
-    a2 = (thresh < 1.25 ** 2).float().mean()
-    a3 = (thresh < 1.25 ** 3).float().mean()
+    a1 = (thresh < 1.25).float().mean()  # type: ignore
+    a2 = (thresh < 1.25 ** 2).float().mean()  # type: ignore
+    a3 = (thresh < 1.25 ** 3).float().mean()  # type: ignore
 
     rmse = (gt - pred) ** 2
     rmse = torch.sqrt(rmse.mean())

@@ -6,14 +6,15 @@ Dit programma zet de mac camera aan om te filmen en laat het op het scherm zien.
 Door Rombout Jansen
 """
 
-
 # Modules
 import os
+from typing import OrderedDict
 import numpy as np
 import PIL.Image as pil
 import matplotlib as mpl
 import matplotlib.cm as cm
 import torch
+from torch.functional import Tensor
 from torchvision import transforms
 import cv2
 
@@ -53,8 +54,9 @@ def display_depth(model_name: str = "mono+stereo_640x192") -> None:
     # extract the height and width of image that this model was trained with
     feed_height = loaded_dict_enc['height']
     feed_width = loaded_dict_enc['width']
-    filtered_dict_enc = {
-        k: v for k, v in loaded_dict_enc.items() if k in encoder.state_dict()}
+    filtered_dict_enc = OrderedDict({
+        k: v for k, v in loaded_dict_enc.items() if k in encoder.state_dict()
+    })
     encoder.load_state_dict(filtered_dict_enc)
     encoder.to(device)
     encoder.eval()
@@ -80,6 +82,7 @@ def display_depth(model_name: str = "mono+stereo_640x192") -> None:
             frame2 = frame
         else:
             rval = False
+            raise SystemError("Not able to open camera")
 
         while rval:
             cv2.imshow("preview", frame)
@@ -99,13 +102,13 @@ def display_depth(model_name: str = "mono+stereo_640x192") -> None:
             outputs = depth_decoder(features)
 
             disp = outputs[("disp", 0)]
-            disp_resized = torch.nn.functional.interpolate(
+            disp_resized = torch.nn.functional.interpolate(  # type: ignore
                 disp, (original_height, original_width), mode="bilinear", align_corners=False)
 
             # Saving colormapped depth image
             disp_resized_np = disp_resized.squeeze().cpu().numpy()
             vmax = np.percentile(disp_resized_np, 95)
-            normalizer = mpl.colors.Normalize(
+            normalizer = mpl.colors.Normalize(  # type: ignore
                 vmin=disp_resized_np.min(), vmax=vmax)
             mapper = cm.ScalarMappable(norm=normalizer, cmap='magma')
             colormapped_im = (mapper.to_rgba(disp_resized_np)[

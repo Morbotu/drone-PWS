@@ -19,8 +19,8 @@ from torchvision import transforms
 import cv2
 
 # Geinstalleerde bestanden
-from src.live_camera_mac.utils import download_model_if_doesnt_exist
-from src.live_camera_mac import networks
+from utils import download_model_if_doesnt_exist
+import networks
 
 
 def main():
@@ -35,7 +35,7 @@ def get_device():
     return device
 
 
-def display_depth(model_name: str = "mono+stereo_640x192") -> None:
+def display_depth(model_name: str = "mono+stereo_640x192"):
     """Functie die de met de camera filmt, het beeld omzet in diepte en een preview ervan laat zien.
     """
 
@@ -43,7 +43,7 @@ def display_depth(model_name: str = "mono+stereo_640x192") -> None:
 
     # Download het model
     download_model_if_doesnt_exist(model_name)
-    model_path = os.path.join("models", model_name)
+    model_path = os.path.join("src/live_camera_mac/models", model_name)
     encoder_path = os.path.join(model_path, "encoder.pth")
     depth_decoder_path = os.path.join(model_path, "depth.pth")
 

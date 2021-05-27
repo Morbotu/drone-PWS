@@ -1,3 +1,5 @@
+[![Python application](https://github.com/Morbotu/drone-PWS/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/Morbotu/drone-PWS/actions/workflows/python-app.yml)
+
 # drone-PWS
 
 Een automatische drone voor mijn profielwerkstuk 2021.

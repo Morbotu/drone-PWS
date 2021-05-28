@@ -27,9 +27,9 @@ Een automatische drone voor mijn profielwerkstuk 2021.
 
             -   [tum-vision/lsd_slam](https://github.com/tum-vision/lsd_slam)
 
-    -   [ ] Maak programma dat diepte kan zien
+    -   [x] Maak programma dat diepte kan zien
 
-        -   [ ] Maak [live_camera_mac.py](live_camera_mac.py) schoon
+        -   [x] Maak [live_camera_mac.py](live_camera_mac.py) schoon
 
     -   [ ] Schrijf programma voor camera
 

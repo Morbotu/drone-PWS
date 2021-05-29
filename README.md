@@ -19,23 +19,14 @@ Een automatische drone voor mijn profielwerkstuk 2021.
         -   Links
 
             -   [Getting Started with Jetson Nano 2GB Developer Kit](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit#write)
-            -   [Is there a way to generate real time depthmap from single camera video in python/opencv?](https://stackoverflow.com/questions/64685185/is-there-a-way-to-generate-real-time-depthmap-from-single-camera-video-in-python)
-
-        -   Github
-
-            -   [Morbotu/monodepth2](https://github.com/Morbotu/monodepth2)
-
-            -   [tum-vision/lsd_slam](https://github.com/tum-vision/lsd_slam)
-
-    -   [x] Maak programma dat diepte kan zien
-
-        -   [x] Maak [live_camera_mac.py](live_camera_mac.py) schoon
 
     -   [ ] Schrijf programma voor camera
 
         -   [ ] Vind API voor image recognition
+        -   [x] Maak programma dat diepte kan zien
+            -   [x] Maak [live_camera_mac.py](src/live_camera_mac/live_camera_mac.py) schoon
         -   [ ] Vind voorbeeld programma
-        -   [ ] Schrijf eigen versie programma [0/4]
+        -   [ ] Schrijf programma
 
             -   [ ] Herken obstakels
             -   [ ] Stuur informatie door naar drone
@@ -46,6 +37,12 @@ Een automatische drone voor mijn profielwerkstuk 2021.
 
             -   [Leveraging TensorFlow-TensorRT integration for Low latency Inference](https://blog.tensorflow.org/2021/01/leveraging-tensorflow-tensorrt-integration.html)
             -   [Create a real-time multiple object detection and recognition application in Python using with a Raspberry Pi Camera](https://maker.pro/nvidia-jetson/tutorial/deep-learning-with-jetson-nano-real-time-object-detection-and-recognition)
+            -   [Is there a way to generate real time depthmap from single camera video in python/opencv?](https://stackoverflow.com/questions/64685185/is-there-a-way-to-generate-real-time-depthmap-from-single-camera-video-in-python)
+
+        -   Github
+
+            -   [Morbotu/monodepth2](https://github.com/Morbotu/monodepth2)
+            -   [tum-vision/lsd_slam](https://github.com/tum-vision/lsd_slam)
 
     -   [ ] Verbind Nvidia Jetson Nano met pixhawk 4
 

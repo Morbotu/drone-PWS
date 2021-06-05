@@ -1,5 +1,6 @@
 # VSCode files
 *.code-workspace
+.vscode
 
 # Junk files
 .DS_Store

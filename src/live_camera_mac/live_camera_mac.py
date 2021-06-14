@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""This program is films and converts live to depth view.
+"""This program films and converts live video to depth view.
 
 By Rombout Jansen
 """
